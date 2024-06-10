@@ -14,18 +14,13 @@ Login : session storage를 통해 현재 로그인 상태 구현 및 계정 db �
 
 ## How to start
 
-1. 필요한 모듈 설치
+ - 필요한 모듈 설치
 
-2. Terminal >> npm start
+ - Terminal >> npm start
 
-3. src/routes/sections.jsx 에서
-
-21 > // element: sessionStorage.getItem('user') ? <Navigate to="/dashboard" replace /> : <MainPage />,
-22 > // element: <Navigate to="/dashboard" replace />,
+ - src/routes/sections.jsx 에서
 
 21 > 메인화면부터 실행 ( 서버필요 O )
-
-or
 
 22 > 대시보드부터 실행 ( 서버필요 X )
 
